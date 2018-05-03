@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title></title>
+<!-- placeholder color site -->
+
+
+
+  <!-- Bootstrap Core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+  <!-- Fonts -->
+  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="css/animate.css" rel="stylesheet" />
+  <!--  theme CSS -->
+  <link href="css/style.css" rel="stylesheet">
+  <link href="color/default.css" rel="stylesheet">
+    
+  <style>
+      .form
+      {
+          text-align: right;
+          font-size: 15px;
+      }
+    
+</style>
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+  <!-- Preloader -->
+  <div id="preloader">
+    <div id="load"></div>
+  </div>
+
+  <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header page-scroll">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+        <a class="navbar-brand" href="homepage.html">
+          <h1 style="color: black;">FINDGRAVEYARD</h1>
+        </a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="homepage.html">Home</a></li>
+          <li><a href="caregiver.html">Caregiver</a></li>
+          <li><a id="logout" href="">Logout</a></li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+  </nav>
+
+  <!-- Section: intro -->
+    
+  <section id="intro" class="intro" >
+
+    <div class="slogan">
+      <div class="col-md-4" style="margin-left: 30%; " >
+        <div style="margin-top:-280px">
+          <h3 style="color :black">CREATE A NEW DECEASED</h3> </br>  
+        
+        <form action="homepage.html" method="post" style="background-color: beige; opacity: 1; padding: 20px;">
+        <div class="col-md-6 form" >
+            
+            <span style="color: black;font-size:20px;font-style:italic">Name : </span></div><div class="col-md-6"><input class="registertextcss" style="font-size:20px" type="text" id="deceased_name"   /><br></div>
+        
+        <div class="col-md-6 form">    
+            <span style="color: black;font-size:20px;font-style:italic">Surname : </span></div> <div class="col-md-6"> <input class="registertextcss"style="font-size:20px" type="text" id="deceased_surname"   /><br></div>
+            
+        <div class="col-md-6 form">    
+            <span style="color: black;font-size:20px;font-style:italic">Job : </span></div><div class="col-md-6"><input class="registertextcss" style="font-size:20px"type="text" id="deceased_job"  name="" /><br></div>		
+        
+        <div class="col-md-6 form">   
+            <span style="color: black;font-size:20px;font-style:italic">Birth Date:</span></div><div class="col-md-6"><input type="date"  class="registerlistcss"style="font-size:20px" id="deceased_birth_date"  ></div><br>
+         
+        <div class="col-md-6 form">
+            <span style="color: black;font-size:20px;font-style:italic">Death Date: </span></div><div class="col-md-6"><input  type="date" class="registerlistcss"style="font-size:20px" id="deceased_death_date"  ></div><br>
+         
+        <div class="col-md-6 form">
+            <span style="color: black;font-size:20px;font-style:italic">Deceased Grave Location : </span></div><div class="col-md-6"><input class="registertextcss"style="font-size:20px"type="text"  id="deceased_location" /><br></div>
+        
+          
+
+        <span style="color: black;font-size:20px;font-style:italic">Gender: 
+            <select class="registerlistcss" value="Gender" id="deceased_gender">
+                <option value="Country" disabled selected>Gender</option>
+                <option value="Female">Female</option>
+                <option value="Male">Male</option>
+                <option value="Others">Others</option>
+        </select>
+        </span><br>
+                <div class="registertextcss"style="padding-right: 0px">
+                    <input type="file" id="file"><br>
+
+                <h3>Biography</h3>
+                <textarea type="text" rows="4"  cols="50" id="Biography" > </textarea><br>
+     
+                <button class="btn btn-skin btn-lg pull-middle firebaseforadd">CREATE</button>
+              </div>
+
+            
+            
+        </form>
+        </div>
+    </div>
+  </div>
+  </section>
+  <!-- /Section: intro -->
+
+
+
+
+  <!-- Core JavaScript Files -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/jquery.scrollTo.js"></script>
+  <script src="js/wow.min.js"></script>
+  <!-- Custom Theme JavaScript -->
+  <script src="js/custom.js"></script>
+  <script src="contactform/contactform.js"></script>
+  <!-- Firebase JavaScript -->
+  <script src="assets/js/jquery-3.2.1.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.13.0/firebase.js"></script>
+  <script src="assets/js/app/main.js"></script>
+  
+ 
+</body>
+
+</html>
